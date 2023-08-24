@@ -1,0 +1,14 @@
+html {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    font-family: "MS Gothic", "Ubuntu Mono", sans-serif;
+    background-color: #dbb671;
+}
+
+input {
+    font-family: "MS Gothic", "Ubuntu Mono", sans-serif;
+}

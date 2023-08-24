@@ -1,0 +1,47 @@
+header {
+  background-color: #9b7837;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+h1 {
+  margin: .5rem 0rem;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.synonym-li {
+  outline: .0625rem solid #000;
+  background-color: #fdeebb;
+  padding: .5rem .25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.synonym-li:hover {
+  background-color: #ffd7a9;
+  font-style: italic;
+}
+
+.synonym-ul {
+  --x-padding: 1rem;
+
+  padding: 0;
+  width: calc(100% - 3 * var(--x-padding));
+  background-color: #ffe190;
+  outline: 0.125rem solid #c7973f;
+  padding: 1rem var(--x-padding);
+  margin: .5rem;
+  border-radius: .5rem;
+  display: flex;
+  list-style: none;
+  column-gap: .5rem;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+}
